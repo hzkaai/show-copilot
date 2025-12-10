@@ -6,8 +6,8 @@
 
 ## ⚡️ 快速开始（uv）
 1. 安装 uv（PowerShell，一次性）：`irm https://astral.sh/uv/install.ps1 | iex`（其他 shell 请参考 uv 文档）。
-2. 创建并激活虚拟环境：`uv venv`，然后用 `uv run python -V` 确认可用。
-3. 安装依赖并运行：`uv run python main.py`。
+2. 安装依赖（自动创建虚拟环境）：`uv sync`。
+3. 运行脚本：`uv run main.py`。
 4. 补丁过程中 Edge 会被关闭；重启后根据提示按 Enter 结束。
 
 ## 🔧 做了什么

@@ -6,8 +6,8 @@ Tiny Python helper that nudges Microsoft Edge into Copilot mode by patching your
 
 ## ⚡️ Quick Start (uv)
 1. Install uv (once, PowerShell): `irm https://astral.sh/uv/install.ps1 | iex` (see uv docs for other shells).
-2. Create & activate a venv: `uv venv` then `uv run python -V` to confirm.
-3. Install deps + run: `uv run python main.py`.
+2. Install deps (creates venv automatically): `uv sync`.
+3. Run the script: `uv run main.py`.
 4. Edge will close while patching; after it restarts, press Enter to finish.
 
 ## 🔧 What Happens
